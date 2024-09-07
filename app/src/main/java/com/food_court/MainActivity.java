@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity{
         view = findViewById(R.id.view_btn);
         
         DB = new DBHelper(this);
+//        --------------------------- Create button works...
         create.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,7 +47,7 @@ public class MainActivity extends AppCompatActivity{
                 }
             }
         });
-
+// --------------------------- Update button works
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity{
                 }
             }
         });
-
+// --------------------------- Delete button works
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -75,7 +76,7 @@ public class MainActivity extends AppCompatActivity{
                 }
             }
         });
-
+//---------------------------------------- view button works
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
